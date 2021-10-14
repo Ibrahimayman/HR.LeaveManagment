@@ -5,7 +5,7 @@ using System.Text;
 
 namespace HR.LeaveManagment.Application.DTOs.LeaveRequest
 {
-    class LeaveRequestListDto : BaseDto
+    public class LeaveRequestListDto : BaseDto
     {
         public LeaveTypeDto LeaveType { get; set; }
 
