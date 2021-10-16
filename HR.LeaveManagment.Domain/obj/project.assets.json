@@ -279,8 +279,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ibrahim\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Ibrahim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -291,9 +290,6 @@
       "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Domain\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
