@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using HR.LeaveManagment.Application.DTOs;
-using HR.LeaveManagment.Application.Responses;
 using MediatR;
+using HR.LeaveManagment.Domain;
+using HR.LeaveManagment.Application.DTOs;
 
 namespace HR.LeaveManagment.Application.Features.LeaveTypes.Requests.Commands
 {
-    public class CreateLeaveTypeCommand : IRequest<BaseCommonResponse>
+    public class UpdateLeaveTypeCommand : IRequest<Unit>
     {
         public LeaveTypeDto LeaveTypeDto { get; set; }
     }
