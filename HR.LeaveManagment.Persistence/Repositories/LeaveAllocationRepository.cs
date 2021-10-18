@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using HR.LeaveManagment.Domain;
-using HR.LeaveManagment.Application.Persistence.Contracts;
+using HR.LeaveManagment.Application.Contracts.Persistence;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 

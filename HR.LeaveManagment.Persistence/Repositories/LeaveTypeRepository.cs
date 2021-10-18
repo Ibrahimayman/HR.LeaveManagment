@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using HR.LeaveManagment.Application.Persistence.Contracts;
+using HR.LeaveManagment.Application.Contracts.Persistence;
 
 namespace HR.LeaveManagment.Persistence.Repositories
 {

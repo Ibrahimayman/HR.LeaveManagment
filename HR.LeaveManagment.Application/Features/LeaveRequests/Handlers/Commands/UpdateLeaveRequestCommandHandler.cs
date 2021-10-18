@@ -5,7 +5,7 @@ using MediatR;
 using HR.LeaveManagment.Application.Features.LeaveRequests.Requests.Commands;
 using System.Threading.Tasks;
 using System.Threading;
-using HR.LeaveManagment.Application.Persistence.Contracts;
+using HR.LeaveManagment.Application.Contracts.Persistence;
 using AutoMapper;
 using HR.LeaveManagment.Domain;
 

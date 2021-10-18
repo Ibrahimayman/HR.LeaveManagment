@@ -7,7 +7,7 @@ using HR.LeaveManagment.Application.DTOs;
 using HR.LeaveManagment.Application.Features.LeaveTypes.Requests.Commands;
 using System.Threading.Tasks;
 using System.Threading;
-using HR.LeaveManagment.Application.Persistence.Contracts;
+using HR.LeaveManagment.Application.Contracts.Persistence;
 using AutoMapper;
 
 namespace HR.LeaveManagment.Application.Features.LeaveTypes.Handlers.Commands

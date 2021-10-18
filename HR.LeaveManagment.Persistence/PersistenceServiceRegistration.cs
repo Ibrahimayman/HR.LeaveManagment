@@ -1,4 +1,4 @@
-﻿using HR.LeaveManagment.Application.Persistence.Contracts;
+﻿using HR.LeaveManagment.Application.Contracts.Persistence;
 using HR.LeaveManagment.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;

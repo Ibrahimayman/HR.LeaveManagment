@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using HR.LeaveManagment.Domain;
 
 
-namespace HR.LeaveManagment.Application.Persistence.Contracts
+namespace HR.LeaveManagment.Application.Contracts.Persistence
 {
     public interface ILeaveTypeRepository : IGenericRepository<LeaveType>
     {

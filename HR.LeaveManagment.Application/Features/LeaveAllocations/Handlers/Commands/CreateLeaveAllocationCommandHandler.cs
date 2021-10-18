@@ -7,7 +7,7 @@ using HR.LeaveManagment.Application.DTOs;
 using HR.LeaveManagment.Application.Features.LeaveAllocations.Requests.Commands;
 using System.Threading.Tasks;
 using System.Threading;
-using HR.LeaveManagment.Application.Persistence.Contracts;
+using HR.LeaveManagment.Application.Contracts.Persistence;
 using HR.LeaveManagment.Domain;
 
 namespace HR.LeaveManagment.Application.Features.LeaveAllocations.Handlers.Commands
