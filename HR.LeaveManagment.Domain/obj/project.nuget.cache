@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "Lnjcp+oMD1GIU0EJ0T/SFirHd8G1j9GcM+cS/aK0lQYMbkyayVkz/OckOsJIzsAh1GYy/vGzSuzuZ3ycc3inVw==",
+  "dgSpecHash": "qBV+zi7FTTaL1eEJ1jjLmcJ9BoAi/+dFbsJh9bAvF46rLtL8yoUfKhcOQ8r7Lf7svj3rWyitGjhBrs4E4iAxBw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\Ibrahim\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []

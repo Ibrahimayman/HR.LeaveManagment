@@ -1,0 +1,10 @@
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Infrastructure\bin\Debug\netstandard2.1\HR.LeaveManagment.Infrastructure.deps.json
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Infrastructure\bin\Debug\netstandard2.1\HR.LeaveManagment.Infrastructure.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Infrastructure\bin\Debug\netstandard2.1\HR.LeaveManagment.Infrastructure.pdb
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Infrastructure\obj\Debug\netstandard2.1\HR.LeaveManagment.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Infrastructure\obj\Debug\netstandard2.1\HR.LeaveManagment.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Infrastructure\obj\Debug\netstandard2.1\HR.LeaveManagment.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Infrastructure\obj\Debug\netstandard2.1\HR.LeaveManagment.Infrastructure.AssemblyInfo.cs
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Infrastructure\obj\Debug\netstandard2.1\HR.LeaveManagment.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Infrastructure\obj\Debug\netstandard2.1\HR.LeaveManagment.Infrastructure.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Infrastructure\obj\Debug\netstandard2.1\HR.LeaveManagment.Infrastructure.pdb

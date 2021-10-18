@@ -1,0 +1,15 @@
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\bin\Debug\netstandard2.1\HR.LeaveManagment.Persistence.deps.json
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\bin\Debug\netstandard2.1\HR.LeaveManagment.Persistence.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\bin\Debug\netstandard2.1\HR.LeaveManagment.Persistence.pdb
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\obj\Debug\netstandard2.1\HR.LeaveManagment.Persistence.csprojAssemblyReference.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\obj\Debug\netstandard2.1\HR.LeaveManagment.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\obj\Debug\netstandard2.1\HR.LeaveManagment.Persistence.AssemblyInfoInputs.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\obj\Debug\netstandard2.1\HR.LeaveManagment.Persistence.AssemblyInfo.cs
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\obj\Debug\netstandard2.1\HR.LeaveManagment.Persistence.csproj.CoreCompileInputs.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\obj\Debug\netstandard2.1\HR.LeaveManagment.Persistence.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\obj\Debug\netstandard2.1\HR.LeaveManagment.Persistence.pdb
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\bin\Debug\netstandard2.1\HR.LeaveManagment.Application.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\bin\Debug\netstandard2.1\HR.LeaveManagment.Domain.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\bin\Debug\netstandard2.1\HR.LeaveManagment.Application.pdb
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\bin\Debug\netstandard2.1\HR.LeaveManagment.Domain.pdb
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Persistence\obj\Debug\netstandard2.1\HR.LeaveManagment.Persistence.csproj.CopyComplete

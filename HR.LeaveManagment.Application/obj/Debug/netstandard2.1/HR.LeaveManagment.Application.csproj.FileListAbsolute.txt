@@ -1,0 +1,13 @@
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\bin\Debug\netstandard2.1\HR.LeaveManagment.Application.deps.json
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\bin\Debug\netstandard2.1\HR.LeaveManagment.Application.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\bin\Debug\netstandard2.1\HR.LeaveManagment.Application.pdb
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\bin\Debug\netstandard2.1\HR.LeaveManagment.Domain.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\bin\Debug\netstandard2.1\HR.LeaveManagment.Domain.pdb
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.csprojAssemblyReference.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.AssemblyInfoInputs.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.AssemblyInfo.cs
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.csproj.CoreCompileInputs.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.csproj.CopyComplete
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.pdb
