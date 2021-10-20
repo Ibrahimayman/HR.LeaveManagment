@@ -52,7 +52,7 @@ namespace HR.LeaveManagment.Api.Controllers
 
         // PUT api/<LeavetypesController>/5
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(int id, [FromBody] LeaveTypeDto leaveType)
+        public async Task<ActionResult> Put([FromBody] LeaveTypeDto leaveType)
         {
             var command = new UpdateLeaveTypeCommand { LeaveTypeDto = leaveType };
             var response = await _mediator.Send(command);
@@ -64,8 +64,8 @@ namespace HR.LeaveManagment.Api.Controllers
         public async Task<ActionResult> Delete(int id)
         {
             var command = new DeleteLeaveTypeCommand { Id = id };
-            var response = await _mediator.Send(command);
-            return Ok(response);
+            await _mediator.Send(command);
+            return NoContent();
         }
     }
 }
