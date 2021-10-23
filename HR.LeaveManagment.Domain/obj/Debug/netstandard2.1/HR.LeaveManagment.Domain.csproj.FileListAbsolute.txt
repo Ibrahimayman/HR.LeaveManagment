@@ -8,3 +8,12 @@ C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Domain\obj\Deb
 C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Domain\obj\Debug\netstandard2.1\HR.LeaveManagment.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Domain\obj\Debug\netstandard2.1\HR.LeaveManagment.Domain.dll
 C:\Users\Ibrahim\source\repos\HR.LeaveManagment\HR.LeaveManagment.Domain\obj\Debug\netstandard2.1\HR.LeaveManagment.Domain.pdb
+C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Domain\bin\Debug\netstandard2.1\HR.LeaveManagment.Domain.deps.json
+C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Domain\bin\Debug\netstandard2.1\HR.LeaveManagment.Domain.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Domain\bin\Debug\netstandard2.1\HR.LeaveManagment.Domain.pdb
+C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Domain\obj\Debug\netstandard2.1\HR.LeaveManagment.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Domain\obj\Debug\netstandard2.1\HR.LeaveManagment.Domain.AssemblyInfoInputs.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Domain\obj\Debug\netstandard2.1\HR.LeaveManagment.Domain.AssemblyInfo.cs
+C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Domain\obj\Debug\netstandard2.1\HR.LeaveManagment.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Domain\obj\Debug\netstandard2.1\HR.LeaveManagment.Domain.dll
+C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Domain\obj\Debug\netstandard2.1\HR.LeaveManagment.Domain.pdb

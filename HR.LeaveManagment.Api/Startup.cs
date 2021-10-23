@@ -1,3 +1,4 @@
+using HR.LeaveManagement.Identity;
 using HR.LeaveManagment.Application;
 using HR.LeaveManagment.Infrastructure;
 using HR.LeaveManagment.Persistence;
@@ -29,9 +30,13 @@ namespace HR.LeaveManagment.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpContextAccessor();
+            AddSwaggerDoc(services);
+
             services.ConfigureApplicationServices();
             services.ConfigureInfrastructureServices(Configuration);
             services.ConfigurePersistenceServices(Configuration);
+            services.ConfigureIdentityServices(Configuration);
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -52,20 +57,71 @@ namespace HR.LeaveManagment.Api
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HR.LeaveManagment.Api v1"));
             }
+
+            app.UseSwagger();
+
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HR.LeaveManagment.Api v1"));
+
+            app.UseAuthentication();
 
             app.UseHttpsRedirection();
 
             app.UseRouting();
 
             app.UseAuthorization();
+
             app.UseCors("CorsPolicy");
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
         }
+
+        private void AddSwaggerDoc(IServiceCollection services)
+        {
+            services.AddSwaggerGen(c =>
+            {
+                c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+                {
+                    Description = @"JWT Authorization header using the Bearer scheme. 
+                      Enter 'Bearer' [space] and then your token in the text input below.
+                      Example: 'Bearer 12345abcdef'",
+                    Name = "Authorization",
+                    In = ParameterLocation.Header,
+                    Type = SecuritySchemeType.ApiKey,
+                    Scheme = "Bearer"
+                });
+
+                c.AddSecurityRequirement(new OpenApiSecurityRequirement()
+                  {
+                    {
+                      new OpenApiSecurityScheme
+                      {
+                        Reference = new OpenApiReference
+                          {
+                            Type = ReferenceType.SecurityScheme,
+                            Id = "Bearer"
+                          },
+                          Scheme = "oauth2",
+                          Name = "Bearer",
+                          In = ParameterLocation.Header,
+
+                        },
+                        new List<string>()
+                      }
+                    });
+
+                c.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "HR Leave Management Api",
+
+                });
+
+            });
+        }
+
     }
 }

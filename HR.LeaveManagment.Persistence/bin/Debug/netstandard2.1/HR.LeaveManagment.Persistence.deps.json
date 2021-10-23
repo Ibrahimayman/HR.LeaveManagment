@@ -10,6 +10,7 @@
       "HR.LeaveManagment.Persistence/1.0.0": {
         "dependencies": {
           "HR.LeaveManagment.Application": "1.0.0",
+          "HR.LeaveManagment.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "5.0.0"
         },

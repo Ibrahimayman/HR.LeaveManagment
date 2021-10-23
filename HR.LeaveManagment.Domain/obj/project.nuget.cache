@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qBV+zi7FTTaL1eEJ1jjLmcJ9BoAi/+dFbsJh9bAvF46rLtL8yoUfKhcOQ8r7Lf7svj3rWyitGjhBrs4E4iAxBw==",
+  "dgSpecHash": "+td5ej/DYgO8odalZEXpKnavVgLSwwxPwqO5xATbMOiOsnl5SpVzbR7+DENIec9tt9sGlT6EeNmcZFI/kB0aWQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ibrahim\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],

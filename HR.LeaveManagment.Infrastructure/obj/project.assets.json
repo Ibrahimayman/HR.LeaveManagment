@@ -3390,21 +3390,17 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ibrahim\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Ibrahim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Infrastructure\\HR.LeaveManagment.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Infrastructure\\HR.LeaveManagment.Infrastructure.csproj",
       "projectName": "HR.LeaveManagment.Infrastructure",
-      "projectPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Infrastructure\\HR.LeaveManagment.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Infrastructure\\HR.LeaveManagment.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -3420,8 +3416,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Application\\HR.LeaveManagment.Application.csproj": {
-              "projectPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Application\\HR.LeaveManagment.Application.csproj"
+            "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Application\\HR.LeaveManagment.Application.csproj": {
+              "projectPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Application\\HR.LeaveManagment.Application.csproj"
             }
           }
         }

@@ -7354,26 +7354,23 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "HR.LeaveManagment.Application >= 1.0.0",
+      "HR.LeaveManagment.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.11",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 5.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ibrahim\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Ibrahim\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
+      "projectUniqueName": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
       "projectName": "HR.LeaveManagment.Persistence",
-      "projectPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
+      "projectPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Persistence\\HR.LeaveManagment.Persistence.csproj",
       "packagesPath": "C:\\Users\\Ibrahim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Persistence\\obj\\",
+      "outputPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Persistence\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\Ibrahim\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -7389,8 +7386,11 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Application\\HR.LeaveManagment.Application.csproj": {
-              "projectPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagment\\HR.LeaveManagment.Application\\HR.LeaveManagment.Application.csproj"
+            "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Application\\HR.LeaveManagment.Application.csproj": {
+              "projectPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Application\\HR.LeaveManagment.Application.csproj"
+            },
+            "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj": {
+              "projectPath": "C:\\Users\\Ibrahim\\source\\repos\\HR.LeaveManagmentRepo1\\HR.LeaveManagment\\HR.LeaveManagment.Domain\\HR.LeaveManagment.Domain.csproj"
             }
           }
         }
