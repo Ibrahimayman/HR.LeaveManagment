@@ -39,10 +39,6 @@ namespace HR.LeaveManagment.Api
             services.ConfigureIdentityServices(Configuration);
 
             services.AddControllers();
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "HR.LeaveManagment.Api", Version = "v1" });
-            });
 
             services.AddCors(o =>
             {

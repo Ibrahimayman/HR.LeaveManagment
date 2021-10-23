@@ -8,6 +8,7 @@ using HR.LeaveManagment.Application.Features.LeaveAllocations.Requests.Queries;
 using HR.LeaveManagment.Application.DTOs;
 using HR.LeaveManagment.Application.Features.LeaveAllocations.Requests.Commands;
 using HR.LeaveManagment.Application.DTOs.LeaveAllocation;
+using Microsoft.AspNetCore.Authorization;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -15,6 +16,7 @@ namespace HR.LeaveManagment.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class LeaveAllocationsController : ControllerBase
     {
         private readonly IMediator _mediator;

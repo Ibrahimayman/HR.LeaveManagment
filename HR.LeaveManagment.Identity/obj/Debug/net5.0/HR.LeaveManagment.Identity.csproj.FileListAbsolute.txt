@@ -17,3 +17,4 @@ C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveM
 C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Identity\bin\Debug\net5.0\HR.LeaveManagment.Application.pdb
 C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Identity\bin\Debug\net5.0\HR.LeaveManagment.Domain.pdb
 C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Identity\obj\Debug\net5.0\HR.LeaveManagment.Identity.genruntimeconfig.cache
+C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Identity\obj\Debug\net5.0\HR.LeaveManagment.Identity.csproj.CopyComplete

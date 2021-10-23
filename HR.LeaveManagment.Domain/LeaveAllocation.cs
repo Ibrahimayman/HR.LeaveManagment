@@ -17,5 +17,8 @@ namespace HR.LeaveManagment.Domain
         public int LeaveTypeId { get; set; }
          
         public int Period { get; set; }
+
+        public int EmployeeId { get; set; }
+
     }
 }
