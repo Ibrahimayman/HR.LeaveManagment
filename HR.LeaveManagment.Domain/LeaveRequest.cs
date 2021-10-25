@@ -24,5 +24,8 @@ namespace HR.LeaveManagment.Domain
         public bool? Approved { get; set; }
 
         public bool Cancelled { get; set; }
+
+        public string RequestingEmployeeId { get; set; }
+
     }
 }

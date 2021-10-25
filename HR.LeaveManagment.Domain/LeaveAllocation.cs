@@ -18,7 +18,7 @@ namespace HR.LeaveManagment.Domain
          
         public int Period { get; set; }
 
-        public int EmployeeId { get; set; }
+        public string EmployeeId { get; set; }
 
     }
 }

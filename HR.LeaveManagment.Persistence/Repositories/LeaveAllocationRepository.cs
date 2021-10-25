@@ -22,7 +22,7 @@ namespace HR.LeaveManagment.Persistence.Repositories
            await _dbContext.SaveChangesAsync();
         }
 
-        public async Task<bool> AllocationExists(int userId, int leaveTypeId, int period)
+        public async Task<bool> AllocationExists(string userId, int leaveTypeId, int period)
         {
             return await
                 _dbContext.LeaveAllocations.AnyAsync(
@@ -47,6 +47,12 @@ namespace HR.LeaveManagment.Persistence.Repositories
                 .FirstOrDefaultAsync(q => q.Id == Id);
 
             return leaveAllocation;
+        }
+
+        public async Task<LeaveAllocation> GetUserAllocations(string userId, int leaveTypeId)
+        {
+            return await _dbContext.LeaveAllocations.FirstOrDefaultAsync(q => q.EmployeeId == userId
+                                       && q.LeaveTypeId == leaveTypeId);
         }
 
     }

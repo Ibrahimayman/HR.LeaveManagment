@@ -18,13 +18,15 @@ namespace HR.LeaveManagment.Application.Features.LeaveTypes.Handlers.Commands
 {
     public class CreateLeaveTypeCommandHandler : IRequestHandler<CreateLeaveTypeCommand, BaseCommonResponse>
     {
-        private readonly ILeaveTypeRepository _leaveTypeRepository;
+        //private readonly ILeaveTypeRepository _leaveTypeRepository;
+
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
 
-        public CreateLeaveTypeCommandHandler(ILeaveTypeRepository leaveTypeRepository, IMapper mapper)
+        public CreateLeaveTypeCommandHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            _leaveTypeRepository = leaveTypeRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
@@ -32,7 +34,7 @@ namespace HR.LeaveManagment.Application.Features.LeaveTypes.Handlers.Commands
         {
             var response = new BaseCommonResponse();
             var validator = new CreateLeaveTypeDtoValidator();
-            ValidationResult  validationResult =await validator.ValidateAsync(request.LeaveTypeDto);
+            var validationResult = await validator.ValidateAsync(request.LeaveTypeDto);
 
             if (validationResult.IsValid == false)
             {
@@ -40,14 +42,17 @@ namespace HR.LeaveManagment.Application.Features.LeaveTypes.Handlers.Commands
                 response.Message = "Creation Failed";
                 response.Errors = validationResult.Errors.Select(q => q.ErrorMessage).ToList();
             }
+            else
+            {
+                var leaveType = _mapper.Map<LeaveType>(request.LeaveTypeDto);
 
-            var LeaveType = _mapper.Map<LeaveType>(request.LeaveTypeDto);
-            LeaveType = await _leaveTypeRepository.Add(LeaveType);
+                leaveType = await _unitOfWork.LeaveTypeRepository.Add(leaveType);
+                await _unitOfWork.Save();
 
-
-            response.Success = true;
-            response.Message = "Creation Successful";
-            response.Id = LeaveType.Id;
+                response.Success = true;
+                response.Message = "Creation Successful";
+                response.Id = leaveType.Id;
+            }
 
             return response;
         }

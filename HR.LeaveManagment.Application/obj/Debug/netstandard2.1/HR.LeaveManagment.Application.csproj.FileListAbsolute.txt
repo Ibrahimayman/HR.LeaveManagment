@@ -23,4 +23,3 @@ C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveM
 C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.csproj.CoreCompileInputs.cache
 C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.dll
 C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.pdb
-C:\Users\Ibrahim\source\repos\HR.LeaveManagmentRepo1\HR.LeaveManagment\HR.LeaveManagment.Application\obj\Debug\netstandard2.1\HR.LeaveManagment.Application.csproj.CopyComplete

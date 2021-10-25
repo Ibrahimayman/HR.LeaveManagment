@@ -5,9 +5,9 @@ using FluentValidation;
 
 namespace HR.LeaveManagment.Application.DTOs.LeaveType.Validator
 {
-    public class UpdateLeaveTypeDtoValidatorb : AbstractValidator<LeaveTypeDto>
+    public class UpdateLeaveTypeDtoValidator : AbstractValidator<LeaveTypeDto>
     {
-        public UpdateLeaveTypeDtoValidatorb()
+        public UpdateLeaveTypeDtoValidator()
         {
             Include(new BaseLeaveTypeDtoValidator());
 

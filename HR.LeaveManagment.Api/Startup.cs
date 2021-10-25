@@ -1,3 +1,4 @@
+using HR.LeaveManagement.Api.Middleware;
 using HR.LeaveManagement.Identity;
 using HR.LeaveManagment.Application;
 using HR.LeaveManagment.Infrastructure;
@@ -54,6 +55,8 @@ namespace HR.LeaveManagment.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseMiddleware<ExceptionMiddleware>();
 
             app.UseSwagger();
 
